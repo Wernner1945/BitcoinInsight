@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'heading';
+    src: url(fonts-family/heading_now/HeadingNowTrial-28Heavy.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'museful';
+    src: url(fonts-family/museful/Museful\ Black.ttf);
+}
+
+@font-face {
+    font-family: 'museful2';
+    src: url(fonts-family/museful/Museful\ Regular.ttf);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/style_form.css">
+    <link rel="stylesheet" href="/css/fonts/fonts.css">
+</head>
+<body> 
+    <form class="form" onsubmit="return procesarRegistro()">
+        <p class="title">Registro</p>
+            <div class="flex">
+            <label>
+                <input id="nombres" class="input" type="text" placeholder="" required="">
+                <span>Nombres</span>
+            </label>
+
+            <label>
+                <input id="apellidos" class="input" type="text" placeholder="" required="">
+                <span>Apellidos</span>
+            </label>
+            <label>
+                <input id="fechaNacimiento" class="input" type="date" placeholder="" required="">
+                <span>F. de Nacimiento</span>
+            </label>
+        </div>  
+
+        <label>
+            <input id="email" class="input" type="email" placeholder="" required="">
+            <span>Correo Electrónico</span>
+        </label> 
+
+        <label>
+            <input id="contraseña1" class="input" type="password" placeholder="" required="">
+            <span>Contraseña</span>
+        </label>
+        <label>
+            <input id="contraseña2" class="input" type="password" placeholder="" required="">
+            <span>Confirmar Contraseña</span>
+        </label>
+        <button class="submit" onclick="registrar()">ENVIAR</button>
+        <p class="signin">Ya tengo una cuenta <a href="#">Signin</a> </p>
+    </form>
+</body>
+</html>
